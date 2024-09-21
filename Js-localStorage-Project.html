@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Local storage</title>
+  </head>
+  
+  <body>
+    
+    <form id="form-id">
+      
+        <label for="Choose-expenseamount">Choose expenseamount </label> 
+        <input type="number" id="expenseamount" placeholder="amount" required>
+        
+        <label for="Choose-discription">Choose discription</label> 
+        <input type="text" id="discription" placeholder="discription" required>
+        
+        <label for="catageory">Choose a catageory </label>
+        <select id="catageory-id">
+          <option value="food">Food</option>
+          <option value="movie">Movie</option>
+          <option value="eletricity">Eletricity</option>
+          <option value="transport">Transport</option>
+        </select>
+        
+        
+        <button type="submit">Save</button>
+        
+        
+    </form>
+    
+    <h3>Stored data</h3>
+    <ul id="result"></ul>
+    
+  </body>
+<script src="script.js"></script>
+</HTML>
